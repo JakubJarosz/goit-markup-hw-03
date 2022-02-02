@@ -11,7 +11,6 @@ body {
   margin: 0;
 }
 body {
-  width: 1600px;
   font-family: var(--main-font);
   color: var(--secondary-color);
 }
@@ -44,27 +43,41 @@ img {
   list-style-type: none;
 }
 
-.header .cointaner .navigation-logo {
-  margin-right: 93px;
-  margin-left: 215px;
+
+.cointaner {
+  width: 1200px;
+  margin: 0 auto;
+}
+.header {
+  border: 1px solid #ececec;
+
 }
 
+
 .header .cointaner {
-  width: 1600px;
-  height: 80px;
   display: flex;
-  align-items: center;
-  border: 1px solid #ececec;
 }
+     
+
+
 
 .navigation-list {
   display: flex;
   list-style-type: none;
+  margin-left:93px;
+  
+
+
 }
 
 .contact-list {
   display: flex;
   list-style-type: none;
+}
+
+
+.navigation-list-item {
+  margin-top: 32px;
 }
 
 .navigation-list-item:not(:last-child) {
@@ -78,7 +91,8 @@ img {
 
 .contact-list {
   margin-left: auto;
-  margin-right: 215px;
+  margin-top: 32px;
+  
 }
 /*    HEADER         */
 
@@ -90,6 +104,8 @@ img {
   line-height: 1.192;
   letter-spacing: 0.03em;
   color: var(--main-color);
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header .navigation-logo:before {
@@ -136,29 +152,38 @@ img {
 /*     SECTION 1 MAIN PAGE          */
 
 .section1 .cointaner {
-  height: 600px;
+  justify-content: center;
 }
 
 .section1 {
   background-color: #2f303a;
 }
 
+
+
+
 .h1 {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
   text-align: center;
+  margin:0 auto;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   padding-top: 200px;
-  padding-left: 452px;
-  padding-right: 452px;
   color: #ffffff;
+  width: 696px;
+}
+
+
+.buttonplacement {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
 }
 
 .buttonorder {
   background-color: #2196f3;
-  position: absolute;
   width: 200px;
   height: 50px;
   left: 700px;
@@ -169,15 +194,13 @@ img {
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
+  margin-bottom: 200px;
 }
 
 /*   END  SECTION 1 MAIN PAGE         */
 
 /*    SECTION 2 MAIN PAGE    */
 
-.section2 .cointaner {
-  height: 770px;
-}
 
 .information-list {
   display: flex;
@@ -197,6 +220,7 @@ img {
   display: flex;
   justify-content: center;
   list-style-type: none;
+  padding-bottom: 94px;
 }
 
 .images2-list-item:not(:last-child) {
@@ -246,13 +270,11 @@ img {
   background-color: #f5f4fa;
 }
 
-.section3 .cointaner {
-  height: 648px;
-}
 
 .team-list {
   display: flex;
   justify-content: center;
+  padding-bottom: 94px;
 }
 
 .team-color {
@@ -295,22 +317,17 @@ img {
   background-color: #2f303a;
 }
 
-.footer .cointaner {
-  height: 252px;
-}
 
-.address-list {
-  margin-left: 215px;
-}
+
 
 .footer .cointaner .navigation-logo {
   padding-top: 60px;
-  margin-left: 215px;
   display: inline-block;
 }
 
 .address-list {
   margin-top: 20px;
+  padding-bottom: 60px;
 }
 
 .address-list-item:not(:last-child) {
@@ -330,9 +347,7 @@ img {
 
 /*   PORTFOLIO SECTION 1   */
 
-.sectionp1 .cointaner {
-  height: 1548px;
-}
+
 
 .portfoliobutton-list {
   display: flex;
@@ -360,6 +375,7 @@ img {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+  padding-bottom: 94px;
 }
 
 .portfoliopictures-list-item:not(:last-child) {
