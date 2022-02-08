@@ -371,16 +371,16 @@ img {
   /*color: #FFFFFF;*/
 }
 
-.pictureboxes {
-  display: flex;
-  justify-content: center;
+
+.portfoliopictures-list {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-top: 50px;
   padding-bottom: 94px;
 }
 
-.portfoliopictures-list-item:not(:last-child) {
-  margin-right: 30px;
-}
+
 
 .portfoliopictures-list-item {
   height: 404px;
